@@ -3,23 +3,24 @@
     A web page about dogs
 -->
 
-<!Doctype html>
-    <html lang="en">
-        <head>
-            <title>Dogs</title>
-            <meta charset="UTF-8">
-        </head>
-        <body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dogs</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="bg">
             <h1>It's a dog's life</h1>
-            <div>
-                <p>You know what you need? more dogs in your life. Select from the list below to see some</p>
-                <select>
-                    <option>option</option>
-                </select>
-                <input type="button" value="Search">
+            <div class="panel">
+                <p>You know what you need? More dogs in your life. Select from the list below to see more!!</p>
+                <select name="breeds" id="breed-list"></select>
             </div>
-            <div>
-                <img src="" alt="">
+            <div class="panel">
+                <img id="dog-image"></img>
             </div>
-        </body>
-     </html>
+        </div>
+    </body>
+</html>
+<script src="dogs.js"></script>
