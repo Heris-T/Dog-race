@@ -4,57 +4,57 @@
 */
 
 *{
-    color : grey;
-    font-family: Arial, Helvetica, sans-serif;
-   
+        color : grey;
+        font-family: Arial, Helvetica, sans-serif;
+       
 }
 
 body, html{
-height: 100%;
-margin: 0;
-background-color: lightyellow;
+    height: 100%;
+    margin: 0;
+    background-color: lightyellow;
 }
 
 h1 {
-color: white;
-font-size:5em;
-margin: 0;
-padding: 0.5em;
-text-align: center;
+    color: white;
+    font-size:5em;
+    margin: 0;
+    padding: 0.5em;
+    text-align: center;
 }
 
 p{
-padding: 1em;
-font-size: 1em;
-text-align: center;
+    padding: 1em;
+    font-size: 1em;
+    text-align: center;
 }
 
 .bg{
-background-image: url("dog.jpg");
-background: url("dog.jpg");
-height: 200%;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+    background-image: url("dog.jpg");
+    background: url("dog.jpg");
+    height: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .panel{
-width: 75%;
-height: auto;
-margin: auto;
-padding: 1em;
-background-color: whitesmoke;
-border-radius: 10px;
+    width: 75%;
+    height: auto;
+    margin: auto;
+    padding: 1em;
+    background-color: whitesmoke;
+    border-radius: 10px;
 }
 
 #breed-list{
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 80%;
-margin-bottom: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 2em;
 }
 
 #image-container{
-display: none;
+    display: none;
 }
