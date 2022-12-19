@@ -1,2 +1,2 @@
-# dog-pictures
-A website that show images of dogs based on their bread
+# dog-names (simple website)
+A website that show names of the dog
